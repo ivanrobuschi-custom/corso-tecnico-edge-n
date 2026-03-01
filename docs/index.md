@@ -14,11 +14,11 @@ La formazione si concentrerà inoltre sull'utilizzo dei registratori telematici 
 
 ---
 
-Trattandosi di device "All-in-One" molto evoluti, il portale non si limiterà alla sola parte fiscale, ma affronterà l'architettura di sistema e le logiche di rete.
+Trattandosi di device **"All-in-One"** molto evoluti, il portale non si limiterà alla sola parte fiscale, ma affronterà l'architettura di sistema e le logiche di rete.
 
 ### La Visione Commerciale e le Novità (Analisi EDGE-N vs EDGE-N+)
-*Ad ogni necessità corrisponde il registratore telematico corretto* 
-Per questo motivo è importante conoscere le caratteristiche della famiglia EDGE ed il salto generazionale tra la versione *N* e la versione *N+*. 
+*Ad ogni necessità corrisponde il registratore telematico corretto*   
+Per questo motivo è importante conoscere le caratteristiche della famiglia EDGE ed il salto generazionale tra la versione *N* e la versione *N+*.  
 Il concetto "All-in-One": Unione di un PC POS Mobile e un RT in un design compatto per entrambi i modelli, nel pieno rispetto dell'ultima normativa Xml 7 V.11.1, sono fondamentali per indirizzare il corretto esercente verso la serie Edge.
 
 #### Mercati di riferimento
@@ -44,7 +44,7 @@ L'adozione del sistema operativo Android 13 sull'EDGE-N+ rappresenta un salto ge
 
 | **CUSTOM EDGE N+** <br> | **CUSTOM EDGE N** <br> |
 | :--- | :--- |
-| ![EDGE N+](assets/images/edge_n_plus_home.png) | ![EDGE N](assets/images/edge_n_home.png) |
+| ![EDGE N+] | ![EDGE N](assets/images/edge_n_home.png) |
 | **Core:** Android™ 13 (Hexa-Core) | **Core:** Android™ 12 (Quad-Core) |
 | **Connettività:** Wi-Fi, 4G, BT, Eth | **Connettività:** Wi-Fi, 4G, BT, Eth |
 | **Innovazione:** Predisposto SoftPOS (NFC Avanzato) | **Mobilità:** Ottimizzato per uso ambulante |
@@ -58,3 +58,5 @@ L'adozione del sistema operativo Android 13 sull'EDGE-N+ rappresenta un salto ge
 
 * Scheda prodotto di [**Edge N+**](assets/resources/edge-n+.pdf)
 * Scheda prodotto di [**Edge N**](assets/resources/edge-n.pdf)
+
+[EDGE N+]: assets/images/EDGE-N+_5.png
