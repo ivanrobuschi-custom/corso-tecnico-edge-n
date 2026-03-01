@@ -1,5 +1,3 @@
-# FEATURES EDGE N+
-
 Il dispositivo **Custom EDGE N+** è una soluzione All-in-One che integra in un unico chassis un *PC POS Android e un Registratore Telematico Nativo*.
 L'architettura è progettata per operare in mobilità (omologa ambulante) o in postazione fissa.
 A differenza del modello Edge N, la versione **EDGE N+** si basa su una piattaforma hardware potenziata per supportare applicazioni di vendita complesse (es. KeepUp Smart) e pagamenti digitali (SoftPOS) senza latenze.

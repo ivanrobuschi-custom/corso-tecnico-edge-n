@@ -1,10 +1,8 @@
-# FEATURES EDGE N
-
 Il dispositivo **Custom EDGE N** è un Registratore Telematico Nativo basato su architettura PC POS Android.
 Rappresenta la versione standard della famiglia EDGE, progettata per garantire stabilità nelle operazioni di cassa retail e nella gestione della mobilità (omologa ambulante).
 A differenza del modello N+, la versione **EDGE N** utilizza un'architettura hardware dimensionata per l'esecuzione del punto cassa essenziale e la trasmissione telematica dei corrispettivi.
 
-[EDGE_N]
+![EDGE_N]
 
 ---
 
@@ -46,7 +44,7 @@ Il pannello posteriore, protetto dallo sportello *Cable Management*, ospita le c
 * **Bluetooth:** Integrato (Per scanner BT o pairing accessori).
 * **NFC:** Integrato (Standard).
 
-[descrizione]
+![descrizione]
 
 ---
 
