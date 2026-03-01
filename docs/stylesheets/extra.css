@@ -1,0 +1,23 @@
+/* 1. Definizione del Font Personalizzato */
+@font-face {
+  font-family: 'Titillium Web';
+  /* Il percorso ../ torna indietro dalla cartella stylesheets e entra in fonts */
+  src: url('../fonts/TitilliumWeb-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. Applicazione del Font al Tema Material */
+:root {
+  /* --md-text-font controlla il corpo del testo e i titoli */
+  --md-text-font: 'Titillium Web', sans-serif;
+  
+  /* Opzionale: Se vuoi usarlo anche per i blocchi di codice, scommenta la riga sotto */
+  /* --md-code-font: 'Titillium Web', monospace; */
+}
+
+/* 3. Forzatura (Fallback di sicurezza) */
+body, h1, h2, h3, h4, h5, h6, input, button {
+  font-family: 'Titillium Web', sans-serif;
+}
