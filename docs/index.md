@@ -23,6 +23,7 @@ La formazione si concentrerà inoltre sull'utilizzo dei registratori telematici 
 | **Innovazione:** Predisposto SoftPOS (NFC Avanzato) | **Mobilità:** Ottimizzato per uso ambulante |
 | **Target:** App intensive e terze parti | **Target:** Standard Retail e KeepUp |
 | **RT:** Nativo V11.1 (Crypto-chip) | **RT:** Nativo V11.1 (Crypto-chip) |
+| Scarica qui la scheda prodotto di [**Edge N**](assets/resources/edge-n.pdf) | *Scarica qui la scheda prodotto* di [**Edge N**](assets/resources/edge-n.pdf) |
 
 ---
 
@@ -34,3 +35,7 @@ La formazione si concentrerà inoltre sull'utilizzo dei registratori telematici 
 * **Negozi di prossimità:** Soluzione che integra RT e logica applicativa eliminando la necessità di PC dedicati e riducendo i punti di guasto hardware (SPOF).
 * **Ambulanti Evoluti:** Operatività in mobilità garantita da batteria Li-Ion sostituibile, connettività 4G/LTE nativa e display ad alta luminosità per uso esterno.
 
+### Materiale informativo utile
+
+# *Scarica qui la scheda prodotto* di [**Edge N**](assets/resources/edge-n.pdf)/
+# *Scarica qui la scheda prodotto* di [**Edge N**](assets/resources/edge-n.pdf)
