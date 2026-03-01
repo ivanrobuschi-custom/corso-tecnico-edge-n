@@ -1,7 +1,12 @@
 # EDGE N ed N+
 ## Formazione tecnica
 
-Questo portale documentale fornisce le competenze tecniche necessarie per l'installazione, la configurazione e la manutenzione di secondo livello dei dispositivi telematici Custom serie EDGE. I contenuti analizzano l'intera architettura hardware e software, focalizzandosi sulle specifiche normative RT V11.1 e sull'integrazione con gli applicativi di vendita in ambiente Android. Il corso è strutturato per garantire al personale tecnico la completa autonomia operativa nelle procedure di intervento sul campo.
+Questo portale documentale ha l'obiettivo di fornire le competenze tecniche necessarie per l'installazione, la configurazione e la manutenzione dei dispositivi telematici di **Custom s.p.a** della serie **_EDGE_**.
+I contenuti analizzano l'intera architettura hardware e software, focalizzandosi sull'architettura hardware dei dispositivi, delle specifiche normative RT V11.1, delle opportune configurazioni di rete per un corretto utilizzo e adempimento degli obblighi d'invio telematico dei corrispettivi iva di giornata.
+
+La formazione si concentrerà inoltre sull'utilizzo dei registratori telematici Edge N / N+ in abbinamento con il software di frontend di Custom s.p.a. denominato: **KEEPUP SMART** e particolare attenzione verrà prestata alla corretta configurazione di utilizzo di _Edeg N+_ con pagamento integrato NFC tramite applicativo **SOFTPOS** in convenzione con **_CUSTOM PAY_**
+
+l e sull'integrazione con gli applicativi di vendita in ambiente Android. Il corso è strutturato per garantire al personale tecnico la completa autonomia operativa nelle procedure di intervento sul campo.
 
 ---
 

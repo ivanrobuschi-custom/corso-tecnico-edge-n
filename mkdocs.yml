@@ -5,7 +5,7 @@ theme:
   language: it
   features:
     - navigation.instant
-    - navigation.instant.prefetch.
+    - navigation.instant.prefetch
     - navigation.instant.preview
     - navigation.instant.progress
     - navigation.tracking
@@ -15,6 +15,8 @@ theme:
     - navigation.sections
     - navigation.prune
     - navigation.indexes
+
+copyright: '<a href="hardwareedgen/">Edge N</a> | <a href="hardware/">Edge N+</a>'
 
 
 nav:
