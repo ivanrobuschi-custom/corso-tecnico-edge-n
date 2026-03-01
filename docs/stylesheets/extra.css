@@ -15,6 +15,25 @@
   
   /* Opzionale: Se vuoi usarlo anche per i blocchi di codice, scommenta la riga sotto */
   /* --md-code-font: 'Titillium Web', monospace; */
+
+  /* CONFIGURAZIONE COLORI AZIENDALI
+   */
+
+  /* 1. Header e Colore Primario (Link, Titoli attivi) - HEX: #617C8D */
+  --md-primary-fg-color:        #617C8D;
+  --md-primary-fg-color--light: #7A92A1; /* Una variante leggermente più chiara per gli hover */
+  --md-primary-fg-color--dark:  #4B6270; /* Una variante leggermente più scura */
+
+  /* 2. Footer (Sfondo generale) - HEX: #1B3640 */
+  --md-footer-bg-color:         #1B3640;
+  
+  /* 3. Footer Bottom (La striscia del Copyright in basso) */
+  /* Di base eredita il colore sopra, ma lo forziamo per sicurezza */
+  --md-footer-bottom-bg-color:  #1B3640; 
+  
+  /* Assicuriamo che il testo nel footer sia bianco per contrasto */
+  --md-footer-fg-color:         #ffffff;
+  --md-footer-bottom-fg-color:  #ffffff;
 }
 
 /* 3. Forzatura (Fallback di sicurezza) */

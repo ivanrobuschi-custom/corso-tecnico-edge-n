@@ -3,6 +3,7 @@ site_url: https://github.com/ivanrobuschi-custom/corso-tecnico-edge-n.git
 site_author: Ivan Robuschi
 theme:
   name: material
+  favicon: assets/icons/favicon.png
   language: it
   features:
     - navigation.instant
