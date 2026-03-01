@@ -1,4 +1,5 @@
-# EDGE N ed N+
+**# EDGE N ed N+**
+
 ## Formazione tecnica
 
 Questo portale documentale ha l'obiettivo di fornire le competenze tecniche necessarie per l'installazione, la configurazione e la manutenzione dei dispositivi telematici di **Custom S.p.A.** della serie **EDGE**.
@@ -17,7 +18,7 @@ La formazione si concentrerà inoltre sull'utilizzo dei registratori telematici 
 
 | **CUSTOM EDGE N+** <br> *(Architettura Performance)* | **CUSTOM EDGE N** <br> *(Architettura Standard)* |
 | :--- | :--- |
-| ![EDGE N+][def] | ![EDGE N](assets/images/edge_n_home.png) |
+| ![EDGE N+](assets/images/edge_n_plus_home.png) | ![EDGE N](assets/images/edge_n_home.png) |
 | **Core:** Android™ 13 (Hexa-Core) | **Core:** Android™ 12 (Quad-Core) |
 | **Connettività:** Wi-Fi, 4G, BT, Eth | **Connettività:** Wi-Fi, 4G, BT, Eth |
 | **Innovazione:** Predisposto SoftPOS (NFC Avanzato) | **Mobilità:** Ottimizzato per uso ambulante |
