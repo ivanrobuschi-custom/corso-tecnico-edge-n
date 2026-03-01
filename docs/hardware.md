@@ -1,4 +1,4 @@
-# EDGE N+
+# FEATURES EDGE N+
 
 Il dispositivo **Custom EDGE N+** è una soluzione All-in-One che integra in un unico chassis un *PC POS Android e un Registratore Telematico Nativo*.
 L'architettura è progettata per operare in mobilità (omologa ambulante) o in postazione fissa.
@@ -40,6 +40,8 @@ Il pannello posteriore, protetto dallo sportello *Cable Management*, ospita le c
 * **1x USB Type-C:** Riservata esclusivamente per attività di **Service/Debug (ADB)**. Non collegare periferiche di vendita qui.
 * **2x USB 2.0 Type-A:** Per scanner barcode, tastiere o Pen Drive (aggiornamento FW/Loghi).
 
+![conettivita]
+
 ### Moduli Wireless
 * **Wi-Fi:** Dual Band (2.4GHz / 5GHz) 802.11 ac.
 * **Data Mobile:** 4G/LTE integrato (Slot Nano-SIM). *Essenziale per ambulanti.*
@@ -58,20 +60,46 @@ Il gruppo di stampa termico è integrato nello chassis. La manutenzione preventi
 
 ---
 
-## Alimentazione e Sicurezza Tamper
-Il dispositivo è dotato di protezioni hardware attive contro le manomissioni fiscali.
+## Alimentazione e Gestione Energetica
 
-### Tamper Elettronico (Warning Critico)
-A differenza dei registratori classici con piombo fiscale, EDGE N+ utilizza un **Sigillo Elettronico**.
-* **Il Trigger:** Una vite specifica nel vano connessioni chiude un circuito di sicurezza.
-* **L'Evento:** La rimozione della vite (anche a macchina spenta) scatena l'evento **TAMPER**.
-* **Conseguenza:** Il dispositivo entra in blocco fiscale irreversibile ("Dispositivo Manomesso").
-* **Ripristino:** Richiede procedura di **Inizializzazione Hardware (HW Init)** da parte di un laboratorio abilitato. **Non svitare mai senza procedura di servizio attiva.**
+Il dispositivo EDGE N+ supporta un sistema di alimentazione ibrido che ne garantisce la piena operatività sia per installazioni Retail fisse che per scenari di mobilità avanzata, assicurando la continuità del servizio (fiscale e transazionale) anche in assenza di rete elettrica.
 
-### Gestione Energetica
-* **Input:** 12V DC / 1A.
-* **Batteria:** Li-Ion 7.4V - 3000 mAh.
-    * *Nota Installazione:* Alla prima accensione, è **obbligatorio** rimuovere la linguetta isolante nel vano batteria, altrimenti il dispositivo si spegnerà in caso di blackout o disconnessione rete elettrica.
+### Specifiche Tecniche Alimentazione
+L'alimentazione primaria avviene tramite adattatore AC/DC esterno. È fondamentale utilizzare esclusivamente l'alimentatore fornito in dotazione per evitare instabilità che potrebbero compromettere i cicli di scrittura sulla memoria eMMC.
 
+* **Input:** 100-240V ~ 50/60Hz.
+* **Output:** 12V DC / 1A.
+* **Connettore:** Jack DC standard (Polo positivo centrale).
+
+### Modulo Batteria
+Il dispositivo integra una batteria ricaricabile ad alta capacità, accessibile tramite vano dedicato sul fondo dello chassis.
+
+* **Tecnologia:** Ioni di Litio (Li-Ion).
+* **Specifiche:** 7.6V - 3000 mAh.
+* **Autonomia:** L'autonomia effettiva varia in base al carico CPU (es. utilizzo intensivo app terze parti) e alla luminosità del display 8".
+
+!!! warning "Procedura Critica: Prima Accensione"
+    I dispositivi vengono spediti con una **linguetta isolante** applicata sui contatti della batteria per preservarne la carica durante lo stoccaggio.
+    
+    1.  **Prima di collegare l'alimentatore alla rete elettrica**, aprire il vano batteria.
+    2.  Rimuovere fisicamente la linguetta isolante trasparente.
+    3.  Richiudere il vano assicurandosi che il coperchio sia bloccato.
+    
+    **Nota di assistenza:** Se la linguetta non viene rimossa, il dispositivo si spegnerà immediatamente in caso di disconnessione accidentale dell'alimentatore, con rischio di corruzione dei dati in scrittura.
+
+### Logica di Ricarica e Manutenzione
+Il sistema di ricarica è gestito dal kernel Android.
+
+1.  **Stato di Carica:** Monitorabile dall'icona batteria nella barra di stato superiore.
+2.  **Ciclo di Vita:** Le prestazioni degradano dopo circa 300-500 cicli di ricarica completi.
+3.  **Best Practice:** Anche se utilizzato in postazione fissa, si consiglia di effettuare cicli di scarica/carica periodici per mantenere calibrata la lettura della percentuale residua da parte del sistema operativo.
+
+---
+
+### Materiale informativo utile
+
+* [Manuale di assistenza **Edge N+**](assets/resources/manualeassistenzaedgen_edgen2.PDF)
+* [Manuale di assistenza **Edge N**](assets/resources/manualeassistenzaedgen_edgen2.PDF)
 
 [EDGE N+]: assets/images/EDGE-N+_5.png
+[conettivita]: assets/images/pannelloconnettore.png
