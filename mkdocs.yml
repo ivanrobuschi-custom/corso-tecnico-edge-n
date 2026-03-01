@@ -15,6 +15,7 @@ theme:
     - navigation.sections
     - navigation.prune
     - navigation.indexes
+    - toc.integrate
 
 copyright: '<a href="hardwareedgen/">Edge N</a> | <a href="hardware/">Edge N+</a>'
 
@@ -25,4 +26,4 @@ nav:
       - Edge N+: hardware.md
       - Edge N: hardwareedgen.md
   - Normativa fiscale: normativa11.md
-  - Messa in servizio: 
+  - Messa in servizio: messainservizio.md
