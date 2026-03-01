@@ -1,4 +1,4 @@
-# # **EDGE N** 
+# **EDGE N** 
 
 
 Il dispositivo **_Custom EDGE N_** è un Registratore Telematico Nativo basato su architettura PC POS Android.

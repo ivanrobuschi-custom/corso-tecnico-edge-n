@@ -1,6 +1,5 @@
-**# EDGE N ed N+**
+# **EDGE N ed N+**
 
-## Formazione tecnica
 
 Questo portale documentale ha l'obiettivo di fornire le competenze tecniche necessarie per l'installazione, la configurazione e la manutenzione dei dispositivi telematici di **Custom S.p.A.** della serie **EDGE**.
 

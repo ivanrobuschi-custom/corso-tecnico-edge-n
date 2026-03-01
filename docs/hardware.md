@@ -1,4 +1,4 @@
-# # **EDGE N+** 
+# **EDGE N+** 
 
 
 Il dispositivo **_Custom EDGE N+_** è una soluzione All-in-One che integra in un unico chassis un _PC POS Android e un Registratore Telematico Nativo_.

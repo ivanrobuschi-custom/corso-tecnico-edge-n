@@ -1,4 +1,4 @@
-site_name: Edge N / N+
+site_name: Formazione tecnica - Edge N / N+
 site_url: https://github.com/ivanrobuschi-custom/corso-tecnico-edge-n.git
 theme:
   name: material
@@ -20,8 +20,8 @@ copyright: '<a href="hardwareedgen/">Edge N</a> | <a href="hardware/">Edge N+</a
 
 
 nav:
-  - Home: index.md
-  - Caratteristiche Hardware:
-      - Edge N+ Hardware: hardware.md
-      - Edge N Hardware: hardwareedgen.md
-  - Normativa xml 7 ver 11.1: normativa11.md
+  - Serie Edge: index.md
+  - Hardware:
+      - Edge N+: hardware.md
+      - Edge N: hardwareedgen.md
+  - Normativa fiscale: normativa11.md
