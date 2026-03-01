@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# MkDocs build output
+site/
+
+# OS generated files
+.DS_Store
+Thumbs.db

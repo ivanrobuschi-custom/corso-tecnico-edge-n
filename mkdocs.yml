@@ -1,0 +1,11 @@
+site_name: Edge N / N+
+site_url: https://mydomain.org/
+theme:
+  name: material
+  language: it
+nav:
+  - Caratteristiche Hardware:
+      - Panoramica: index.md
+      - Edge N+ Hardware: hardware.md
+      - Edge N Hardware: hardwareedgen.md
+  - Normativa xml 7 ver 11.1: normativa11.md
