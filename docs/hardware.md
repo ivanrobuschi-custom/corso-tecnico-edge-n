@@ -1,12 +1,12 @@
-# EDGE N+ Hardware e Architettura di Sistema
+# # **EDGE N+** 
 
-## Panoramica Architetturale
 
-Il dispositivo Custom EDGE N+ è una soluzione All-in-One che integra in un unico chassis un PC POS Android e un Registratore Telematico Nativo. L'architettura è progettata per operare in mobilità (omologa ambulante) o in postazione fissa.
+Il dispositivo **_Custom EDGE N+_** è una soluzione All-in-One che integra in un unico chassis un _PC POS Android e un Registratore Telematico Nativo_.
+L'architettura è progettata per operare in mobilità (omologa ambulante) o in postazione fissa.
 
-A differenza del modello precedente, la versione N+ si basa su una piattaforma hardware potenziata per supportare applicazioni di vendita complesse (es. Keep Up Smart) e pagamenti digitali (SoftPOS) senza latenze.
+A differenza del modello Edge N, la versione **_EDGE N+_** si basa su una piattaforma hardware potenziata per supportare applicazioni di vendita complesse (es. KeepUp Smart) e pagamenti digitali (SoftPOS) senza latenze.
 
-Scheda Tecnica: Core System
+## Scheda Tecnica: Core System
 La mainboard gestisce il sistema operativo e la logica applicativa, separata logicamente dal modulo fiscale ma integrata fisicamente.
 
 | Componente | Specifica Tecnica EDGE N+ | Note Operative |

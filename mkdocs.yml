@@ -1,11 +1,25 @@
 site_name: Edge N / N+
-site_url: https://mydomain.org/
+site_url: https://github.com/ivanrobuschi-custom/corso-tecnico-edge-n.git
 theme:
   name: material
   language: it
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch.
+    - navigation.instant.preview
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.sections
+    - navigation.prune
+    - navigation.indexes
+
+
 nav:
+  - Home: index.md
   - Caratteristiche Hardware:
-      - Panoramica: index.md
       - Edge N+ Hardware: hardware.md
       - Edge N Hardware: hardwareedgen.md
   - Normativa xml 7 ver 11.1: normativa11.md

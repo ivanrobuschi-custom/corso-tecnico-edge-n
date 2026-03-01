@@ -1,10 +1,10 @@
-# EDGE N Hardware e Architettura di Sistema
+# # **EDGE N** 
 
-## Panoramica Architetturale
 
-Il dispositivo Custom EDGE N è un Registratore Telematico Nativo basato su architettura PC POS Android. Rappresenta la versione entry-level della famiglia EDGE, progettata per garantire stabilità nelle operazioni di cassa standard e nella gestione della fatturazione elettronica e telematica.
+Il dispositivo **_Custom EDGE N_** è un Registratore Telematico Nativo basato su architettura PC POS Android.
+Rappresenta la prima versione della famiglia EDGE, progettata per garantire stabilità nelle operazioni di cassa standard e nella gestione d'invio dei corrispettivi telematici.
 
-Il sistema unifica in un solo chassis la logica applicativa (Android) e la sicurezza fiscale (RT), mantenendo però una separazione logica tra i due ambienti per garantire l'integrità dei dati fiscali.
+Il sistema unifica in un solo chassis la logica applicativa **Android** e la sicurezza fiscale **Registratore Telematico**, mantenendo però una separazione logica tra i due ambienti per garantire l'integrità dei dati fiscali.
 
 A differenza della serie N+, il modello EDGE N utilizza un'architettura hardware dimensionata per l'esecuzione del punto cassa essenziale.
 
