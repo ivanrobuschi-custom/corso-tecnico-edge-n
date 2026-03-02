@@ -18,11 +18,13 @@ theme:
     - navigation.sections
     - navigation.prune
     - navigation.indexes
-    - toc.integrate
+    # - toc.integrate
+    - navigation.top
     - navigation.top
     - search.suggest
     - search.highlight
     - search.share
+    - navigation.footer
 
   palette:
     primary: custom
