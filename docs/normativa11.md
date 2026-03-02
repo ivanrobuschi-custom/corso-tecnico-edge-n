@@ -1,4 +1,9 @@
-# NORMATIVA XML 7 versione 11.1
+# VARIAZIONI ALLE SPECIFICE XML 7 versione 11.1
+
+I Registratori Telematici Custom **EDGE-N** ed **EDGE-N+** vantano l'ultima omologazione dell'Agenzia delle Entrate, essendo sviluppati nativamente in piena conformità alle Specifiche Tecniche RT V11.1 (tracciato XML 7). Qui puoi scaricare le [Specifiche Tecniche RT V11.1](assets/resources/Specifiche_Tecniche_RT_V11.1)  
+
+
+Questa architettura all'avanguardia garantisce il recepimento automatico di tutte le più recenti disposizioni fiscali, gestendo in totale sicurezza il blocco operativo in caso di disallineamenti di stato con il cassetto fiscale (Errore 409). I dispositivi integrano, inoltre, la ricezione della messaggistica istituzionale bidirezionale AdE, la predisposizione per il documento commerciale digitale e il controllo stringente sulle chiusure giornaliere obbligatorie. Proporre la famiglia EDGE significa offrire agli esercenti un prodotto "All-in-One" non solo tecnologicamente avanzato, ma totalmente blindato e pronto per il futuro normativo
 
 ## Nuova Gestione delle Chiusure Giornaliere
 
