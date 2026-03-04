@@ -7,7 +7,7 @@ I Registratori Telematici Custom **EDGE-N** ed **EDGE-N+** vantano l'ultima omol
 
 Questa architettura all'avanguardia garantisce il recepimento automatico di tutte le più recenti disposizioni fiscali, introdotte con la [**versione V 11 del 24 gennaio 2023** e con la **versione V. 11.1 del 26 gennaio 2024**](assets/resources/Variazioniallespecifichetecnichecorrispettivi1aprile2025.pdf)
 
-* * Inserito il paragrafo 2.11 – [**Nuova gestione CHIUSURE GIORNALIERE**](chiusuragiornaliera.md) per le novità riguardanti l’assenza di chiusure giornaliere del registratore telematico.
+* * Inserito il paragrafo 2.11 – [**Nuova gestione CHIUSURE GIORNALIERE**](chiusuragiornaliera.md) per le novità riguardanti l’assenza di chiusure giornaliere del registratore telematico entro le ore 24:00.
 * Fornite precisazioni relative al comportamento del RT in caso di [**periodo di inattività**](periodoinattività.md)
 * Aggiunto un nuovo servizio che in caso di [**disallineamento fra lo stato locale del RT e quello presente sui sistemi dell’Agenzia obbliga il RT**](disallineamento.md) a riallinearsi.
 * Aggiornati i formati di esportazione della memoria di dettaglio e di riepilogo

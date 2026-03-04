@@ -30,4 +30,9 @@ Oppure tramite utilizzo di applicativo UtilityX rt
 * Codice 608 - magazzino
 * Registra Evento
 
-Vedi video tutorial [Fuori Servizio](assets\resources/fuoriservizio.mp4)
+Vedi video tutorial:
+
+<video controls width="100%">
+  <source src="assets/resources/fuoriservizio.mp4" type="video/mp4">
+  Il tuo browser non supporta il tag video.
+</video>
