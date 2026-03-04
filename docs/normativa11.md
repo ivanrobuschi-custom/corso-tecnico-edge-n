@@ -1,26 +1,21 @@
-# VARIAZIONI ALLE SPECIFICE XML 7 versione 11.1
+# APPLICAZIONE SPECIFICHE NORMATIVE XML 7 V.11.1
 
 I Registratori Telematici Custom **EDGE-N** ed **EDGE-N+** vantano l'ultima omologazione dell'Agenzia delle Entrate, essendo sviluppati nativamente in piena conformità alle Specifiche Tecniche RT V11.1 (tracciato XML 7). Qui puoi scaricare le [Specifiche Tecniche RT V11.1](assets/resources/Specifiche_Tecniche_RT_V11.1)  
 
+**Proporre la famiglia EDGE significa offrire agli esercenti un prodotto "All-in-One" non solo tecnologicamente avanzato, ma totalmente blindato e pronto per il futuro normativo.**
 
-Questa architettura all'avanguardia garantisce il recepimento automatico di tutte le più recenti disposizioni fiscali, gestendo in totale sicurezza il blocco operativo in caso di disallineamenti di stato con il cassetto fiscale (Errore 409). I dispositivi integrano, inoltre, la ricezione della messaggistica istituzionale bidirezionale AdE, la predisposizione per il documento commerciale digitale e il controllo stringente sulle chiusure giornaliere obbligatorie. Proporre la famiglia EDGE significa offrire agli esercenti un prodotto "All-in-One" non solo tecnologicamente avanzato, ma totalmente blindato e pronto per il futuro normativo
 
-## Nuova Gestione delle Chiusure Giornaliere
+Questa architettura all'avanguardia garantisce il recepimento automatico di tutte le più recenti disposizioni fiscali, introdotte con la [**versione V 11 del 24 gennaio 2023** e con la **versione V. 11.1 del 26 gennaio 2024**](assets/resources/Variazioniallespecifichetecnichecorrispettivi1aprile2025.pdf)
 
-- Obbligo entro le 24:00: Il Registratore Telematico deve eseguire la chiusura giornaliera entro la mezzanotte.
-- Blocco Operativo: Se la chiusura non viene effettuata, il RT blocca l'emissione di nuovi documenti commerciali e forza la chiusura.
-- Gestione Server RT: I Server RT chiudono in automatico i punti cassa che non hanno inviato la disponibilità, trasmettendo appositi codici di anomalia all'Agenzia
+* Fornite precisazioni relative al comportamento del RT in caso di [**periodo di inattività**](periodoinattività.md)
+* Inserito il paragrafo 2.11 – [**Nuova gestione CHIUSURE GIORNALIERE**](chiusuragiornaliera.md) per le novità riguardanti l’assenza di chiusure giornaliere del registratore telematico.
+* Aggiunto un nuovo servizio che in caso di [**disallineamento fra lo stato locale del RT e quello presente sui sistemi dell’Agenzia obbliga il RT**](disallineamento.md) a riallinearsi.
+* Aggiornati i formati di esportazione della memoria di dettaglio e di riepilogo
+* Aggiunto un nuovo servizio di messaggistica che consente all’Agenzia di inviare messaggi codificati al RT, specificato nel paragrafo 2.5, all'interno della specifica sottosezione "Integrazione della messaggistica per il RT".
+* Modificato il formato dei file XML per l’estrazione della memoria di riepilogo e della memoria di dettaglio per aggiungere informazioni ed adeguarle a quelle attualmente memorizzate nelle memorie fiscali. Riferimento al Paragrafo 2.1 (Caratteristiche Hardware e Software) e Paragrafo 5.2 (Formato Dati).
+* Inseriti i requisiti per il documento commerciale digitale, all'interno delParagrafo 2.1 (Caratteristiche Hardware e Software), all'interno della sezione dedicata al "Documento Commerciale" 
+* Fornite indicazioni relative alla lotteria dei corrispettivi ad estrazione differita e istantanea, tali indicazioni si trovano nel Paragrafo 2.1 (Caratteristiche Hardware e Software), all'interno della sezione "Documento Commerciale".
+* Implementazioni alla funzione di censimento dispositivo, obiettivo è standardizzare i dati inserendo una nuova anagrafica per marca e modello del dispositivo. Paragrofo di riferimento 2.3 Processo di certificazione per l'identificazione delle apparecchiature RT.
+* Definito formato ridotto QR code per dispositivi palmari
 
-## Gestione Inattività
 
-- **Inattività Prolungata**: Se il periodo di chiusura supera i 12 giorni (o è di durata indefinita), il RT deve inviare obbligatoriamente un evento di "Fuori Servizio" con codice 608 (Magazzino/Inattività)
-
-## Nuovi Servizi API: Messaggistica e Allineamento
-
-- **Allineamento RT con server AdE**: Introdotto un servizio che obbliga il RT a riallinearsi con i sistemi dell'Agenzia dell' Entrate in caso di discordanza (evidenziata dall'errore 200), bloccando il dispositivo fino alla sincronizzazione.
-- **Messaggistica Alert**: L'Agenzia può ora inviare messaggi codificati (alert bloccanti e non bloccanti, es. "Firmware non conforme") direttamente sul display e sulla stampa del RT
-
-## Lotteria Istantanea e Documenti Digitali
-
-- **Codice Bidimensionale**: Implementati i requisiti per stampare il codice bidimensionale necessario per la Lotteria ad estrazione istantanea, valido per pagamenti interamente elettronici
-- **Scontrino Digitale Firmato**: I documenti commerciali digitali emessi tramite stampa virtuale devono ora essere firmati mediante il certificato del dispositivo (formati PADES o CADES)
