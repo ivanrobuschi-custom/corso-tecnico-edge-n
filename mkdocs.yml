@@ -47,7 +47,7 @@ nav:
   - Normativa fiscale:
       - Introduzione: normativa11.md
       - Chiusure ore 24: chiusuragiornaliera.md
-      - Periodo d'inattività: periodoinattivita.md
+      - Periodo d'inattività: periodoinattività.md
       - Disallineamenti Ade:
           - disallineamento.md
           - Errore Xml 409: errore409.md
