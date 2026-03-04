@@ -45,4 +45,8 @@ nav:
       - Edge N+: hardware.md
       - Edge N: hardwareedgen.md
   - Normativa fiscale: normativa11.md
+      - Chiusure ore 24: chiusuragiornaliera.md
+      - Periodo d'inattività: periodoinattivita.md
+      - Disallineamenti Ade: disallineamento.md
+        - Errore Xml 409: errore409.md
   - Messa in servizio: messainservizio.md
