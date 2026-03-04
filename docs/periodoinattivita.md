@@ -33,6 +33,6 @@ Oppure tramite utilizzo di applicativo UtilityX rt
 Vedi video tutorial:
 
 <video controls width="100%">
-  <source src="assets/resources/fuoriservizio.mp4" type="video/mp4">
+  <source src="/corso-tecnico-edge-n/assets/resources/fuoriservizio.mp4" type="video/mp4">
   Il tuo browser non supporta il tag video.
 </video>
