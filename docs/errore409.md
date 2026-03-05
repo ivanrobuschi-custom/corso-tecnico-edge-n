@@ -1,4 +1,4 @@
-# RISOLUZIONE DISALLINEAMENTO 409 http 200 XML
+# RISOLUZIONE DISALLINEAMENTO HTTP 409
 
 Il problema descritto (errore dovuto a disallineamento in cui il portale AdE indica "Disattivato" e la cassa "In servizio") è una situazione specificamente gestita dalle nuove normative introdotte con le Specifiche Tecniche RT V11.1.
 
@@ -10,40 +10,65 @@ _ANOMALIA: IL DISPOSITIVO RISULTA DISATTIVATO SUL SERVER_
 
 ![](assets/images/409.png)
 
-Come risolvere il disallineamento (Errore 409)
+## Come risolvere il disallineamento (Errore HTTP 409)
 
-Per sbloccare l'EDGE-N e riallineare gli stati, è obbligatorio l'intervento di un Tecnico Abilitato. L'esercente non può risolvere questa situazione in autonomia.
+Per sbloccare l'EDGE-N e riallineare gli stati, è obbligatorio l'intervento di un Tecnico Abilitato.
+**L'esercente non può risolvere questa situazione in autonomia.**
 
 Il tecnico dovrà seguire questi passaggi:
 
-Comprendere lo stato "Disattivato" Poiché sul server dell'Agenzia delle Entrate la macchina risulta "Disattivata", significa che è stata cancellata l'associazione tra la matricola del Registratore Telematico e la Partita IVA dell'esercente (e il certificato è sospeso).
+### Comprendere lo stato "Disattivato" 
 
-Eseguire una nuova Attivazione Per ripristinare il funzionamento e riallineare la cassa, il tecnico deve eseguire una nuova procedura di ATTIVAZIONE direttamente dal dispositivo. Questa operazione può essere fatta tramite l'app UtilityX RT (oppure da Web Server) procedendo come segue:
+Poiché sul server dell'Agenzia delle Entrate l' RT risulta "Disattivata", significa che è stata cancellata l'associazione tra la matricola del Registratore Telematico e la Partita IVA dell'esercente tramite accesso diretto al _Cassetto Fiscale_ dell'esercente, nel Portale di Agenzia delle Entrate.
+Per avere la certezza di questo stato si consiglia di accedere a:
 
-Accedere al Menù Tecnico di UtilityX RT (inserendo la password).
+* UtilityX RT
+* UTILITA'
+* STATO STAMPANTE (Richiesta stato RT)
 
-Andare nel pannello ATTIVAZIONE.
+Esegue automaticamente la STAMPA DELLA P-699 **SERVIZI TELEMATICI**
+verificare come da immagine lo
+**stato macchina**
+[ade] **stato attuale**
 
-Reinserire il Codice Fiscale del tecnico, la P.IVA del laboratorio e la P.IVA/Codice Fiscale dell'esercente ATTENZIONE: DEVE ESSERE LA PARTITA IVA DELL’ESERCENTE SUL QUALE E' STATA EFFETTUATA LA DISATTIVAZIONE DAL CASSETTO FISCALE, insieme ai dati del punto vendita.
-
-Premere ESEGUI ATTIVAZIONE.  Abilitare flag TELEMATICO e flag ATTIVA ADESSO.
-
-Questo comunicherà al server AdE che l’RT è in stato ATTIVATO 
-
----
-
-In questo modo sia il cassetto e l’RT sono nella stessa condizione di essere **IN SERVIZIO**, questo consente ora di effettuare, se voluto DISATTIVAZIONE, di seguito P699 di STATO rt disattivato. 
-
-_ATTENZIONE CHE COMUNQUE LA P699 PRESENTA LO STATO DI:_
-
- [ADE] STATO ATTUALE: IN_SERVIZIO (anche se lo stato macchina è correttamente DISATTIVATO) 
+di seguito esempio di P-699 in _STATO DISALLINEATO_
 
 ![](assets/images/disattivataservizio.png)
 
+## Eseguire una nuova Attivazione
+
+Per ripristinare il funzionamento e riallineare la cassa, il tecnico deve eseguire una nuova procedura di **ATTIVAZIONE** direttamente dal dispositivo.
+Questa operazione può essere eseguita tramite l'app UtilityX RT procedendo come da video tutorial:
+
+## Video Tutorial FUORI SERVIZIO
+
+<video controls width="100%">
+  <source src="/corso-tecnico-edge-n/assets/resources/409.mp4" type="video/mp4">
+  Il tuo browser non supporta il tag video.
+</video>
+
+* Accedere al Menù Tecnico di UtilityX RT
+* Inserire Password: 147896
+* Pannello ATTIVAZIONE
+
+Reinserire il Codice Fiscale del tecnico, la P.IVA del laboratorio e la P.IVA/Codice Fiscale dell'esercente ATTENZIONE: 
+**DEVE ESSERE LA PARTITA IVA DELL’ESERCENTE SUL QUALE E' STATA EFFETTUATA LA DISATTIVAZIONE DAL CASSETTO FISCALE**, insieme ai dati del punto vendita.
+
+* Abilitare flag TELEMATICO e flag ATTIVA ADESSO
+Premere **ESEGUI ATTIVAZIONE**
+
+Questo comunicherà al server AdE che l’RT è in stato **ATTIVATO**
+
 ---
 
-Anche se il messaggio può apparire ingannevole e sintomo di disallineamento tra ade ed rt, questa condizione non inficia nella nuova **MESSA IN SERVIZIO** su partita iva esercente desiderata. 
+In questo modo sia il cassetto e l’RT sono nella stessa condizione di essere **IN SERVIZIO** 
 
-Di seguito si riporta la P699
+### DISATTIVAZIONE O ALTRE OPERAZIONI TELEMATICHE
 
-![](assets/images/riallineamento.png)
+Una volta eseguita la nuova procedura di attivazione per riallineare l'RT al server di AdE, è possibile effettuare
+**TUTTE LE OPERAZIONI TELEMATICHE** previste dalla normativa:
+
+* DISATTIVAZIONE
+* DISMISSIONE
+* FUORI SERVIZIO 
+

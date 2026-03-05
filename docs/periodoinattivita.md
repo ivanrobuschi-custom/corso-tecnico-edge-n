@@ -1,6 +1,6 @@
 # Normativa e Gestione del Periodo di Inattività (RT V11.1)
 
-In base alle specifiche tecniche per i Registratori Telematici (versione 11.1), la normativa prevede regole precise per la gestione dei periodi in cui il punto vendita non opera e, di conseguenza, non effettua trasmissioni. Il comportamento atteso dal dispositivo varia in funzione della durata dell'inattività dell'esercente.
+Secondo le specifiche tecniche per i Registratori Telematici (versione 11.1), la normativa prevede regole precise per la gestione dei periodi in cui il punto vendita non opera e, di conseguenza, non effettua trasmissioni. Il comportamento atteso dal dispositivo varia in funzione della durata dell'inattività dell'esercente.
 
 ## Interruzioni di attività fino a 12 giorni
 
@@ -16,21 +16,24 @@ In questi scenari, il Registratore Telematico serie EDGE ha la possibilità di c
 
 Alla ripresa lavorativa, non è necessaria alcuna procedura di riattivazione manuale da parte del tecnico o dell'esercente: il Registratore Telematico tornerà automaticamente nello stato “In servizio” nel momento in cui effettuerà la prima trasmissione utile[cite: 2012].
 
-## Procedura Operativa su Dispositivi Custom EDGE (Firmware V11)
+## Procedura Operativa su Dispositivi Custom EDGE (Firmware V11.1)
 
-Per agevolare l'esercente nell'adempimento normativo relativo alle inattività prolungate o ignote, sui dispositivi Edge è stata implementata una funzione rapida a livello di firmware.
+**Per agevolare l'esercente nell'adempimento normativo relativo alle inattività prolungate o ignote, sui dispositivi Edge è stata implementata una funzione rapida a livello di firmware.**
 
 È possibile mandare la cassa in stato di "Fuori Servizio per Periodo Inattivo" utilizzando un apposito shortcut: 
 * L'operatore deve semplicemente digitare il **CODICE 1600** confermando con il tasto **Chiave**. Questo comando forza l'invio dell'evento con codice 608 al server dell'Agenzia delle Entrate.  
 Oppure tramite utilizzo di applicativo UtilityX rt 
+
 * Selezionare _MENU' TECNICO_
-* 147896
-* Evento
+* Inserire Password: 147896
+* Selezionare: EVENTOEvento
 * FUORI SERVIZIO
 * Codice 608 - magazzino
-* Registra Evento
+* Registra Evento 
 
-Vedi video tutorial:
+![Egde procede ad inviare ad AdE "Segnalazione Evento"](assets/images/608.png)
+
+## Video Tutorial FUORI SERVIZIO
 
 <video controls width="100%">
   <source src="/corso-tecnico-edge-n/assets/resources/fuoriservizio.mp4" type="video/mp4">
