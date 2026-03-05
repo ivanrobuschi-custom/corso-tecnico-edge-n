@@ -51,4 +51,6 @@ nav:
       - Disallineamenti Ade:
           - disallineamento.md
           - Errore Xml 409: errore409.md
-  - Messa in servizio: messainservizio.md
+  - Connessioni di rete: schemadiconnessione.md
+        - connessione_eth.md
+        - connessione_wifi.md

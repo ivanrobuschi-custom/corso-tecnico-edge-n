@@ -60,7 +60,6 @@ Il gruppo di stampa termico è identico meccanicamente su tutta la gamma, garant
 ---
 
 ## Alimentazione e Gestione Energetica
-
 Il dispositivo EDGE N+ supporta un sistema di alimentazione ibrido che ne garantisce la piena operatività sia per installazioni Retail fisse che per scenari di mobilità avanzata, assicurando la continuità del servizio (fiscale e transazionale) anche in assenza di rete elettrica.
 
 ### Specifiche Tecniche Alimentazione
@@ -77,14 +76,15 @@ Il dispositivo integra una batteria ricaricabile ad alta capacità, accessibile 
 * **Specifiche:** 7.6V - 3000 mAh.
 * **Autonomia:** L'autonomia effettiva varia in base al carico CPU (es. utilizzo intensivo app terze parti) e alla luminosità del display 8".
 
-!!! warning "Procedura Critica: Prima Accensione"
+### "Procedura Critica: Prima Accensione"
     I dispositivi vengono spediti con una **linguetta isolante** applicata sui contatti della batteria per preservarne la carica durante lo stoccaggio.
     
     1.  **Prima di collegare l'alimentatore alla rete elettrica**, aprire il vano batteria.
     2.  Rimuovere fisicamente la linguetta isolante trasparente.
     3.  Richiudere il vano assicurandosi che il coperchio sia bloccato.
     
-    **Nota di assistenza:** Se la linguetta non viene rimossa, il dispositivo si spegnerà immediatamente in caso di disconnessione accidentale dell'alimentatore, con rischio di corruzione dei dati in scrittura.
+    **Nota di assistenza:**
+    Se la linguetta non viene rimossa, il dispositivo si spegnerà immediatamente in caso di disconnessione accidentale dell'alimentatore, con rischio di corruzione dei dati in scrittura.
 
 ### Logica di Ricarica e Manutenzione
 Il sistema di ricarica è gestito dal kernel Android.
