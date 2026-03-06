@@ -1,5 +1,12 @@
 # Procedure di configurazione Ethernet
 
+## Video Tutorial CONNESSIONE ETHERNET
+
+<video controls width="100%">
+  <source src="/corso-tecnico-edge-n/assets/resources/ethernet.mp4" type="video/mp4">
+  Il tuo browser non supporta il tag video.
+</video>
+
 ## Configurazione rete Modulo Fiscale
 
 * Avviare UtilityX RT
@@ -28,11 +35,3 @@
 ![](assets/images/salva.png)
 * Riavviare il dispositivo tenendo premuto il pulsante di accensione per almeno 3 secondi e selezionare **RIAVVIA**, per rendere effettive le modifiche.
 ![]()(assets/images/riavvia.png)
-
-
-## Video Tutorial CONNESSIONE ETHERNET
-
-<video controls width="100%">
-  <source src="/corso-tecnico-edge-n/assets/resources/ethernet.mp4" type="video/mp4">
-  Il tuo browser non supporta il tag video.
-</video>
