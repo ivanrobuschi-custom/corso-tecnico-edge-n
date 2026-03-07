@@ -1,0 +1,967 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Ivan Robuschi">
+      
+      
+        <link rel="canonical" href="https://github.com/ivanrobuschi-custom/corso-tecnico-edge-n.git/">
+      
+      
+      
+        <link rel="next" href="hardware/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/icons/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.4">
+    
+    
+      
+        <title>Formazione tecnica - Edge N / N+</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#edge-n-e-n" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="." title="Formazione tecnica - Edge N / N+" class="md-header__button md-logo" aria-label="Formazione tecnica - Edge N / N+" data-md-component="logo">
+      
+  <img src="assets/icons/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Formazione tecnica - Edge N / N+
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Serie Edge
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Condividi" aria-label="Condividi" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Cancella" aria-label="Cancella" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Serie Edge
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="hardware/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Infrastruttura Hardware
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="normativa11/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Normativa fiscale
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="schemadiconnessione/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Connessioni di rete
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Formazione tecnica - Edge N / N+" class="md-nav__button md-logo" aria-label="Formazione tecnica - Edge N / N+" data-md-component="logo">
+      
+  <img src="assets/icons/logo.png" alt="logo">
+
+    </a>
+    Formazione tecnica - Edge N / N+
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Serie Edge
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Serie Edge
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#obiettivo-del-portale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Obiettivo del portale
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#la-visione-commerciale-e-le-novita-analisi-edge-n-vs-edge-n" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        La Visione Commerciale e le Novità (Analisi EDGE-N vs EDGE-N+)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="La Visione Commerciale e le Novità (Analisi EDGE-N vs EDGE-N+)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mercati-di-riferimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mercati di riferimento
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caratteristiche-hardware-edge-n" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caratteristiche Hardware EDGE-N:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#levoluzione-di-edge-n" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        L'evoluzione di EDGE-N+:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rivoluzione-softpos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rivoluzione SoftPOS:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sintesi-hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sintesi hardware
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#materiale-informativo-utile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Materiale informativo utile
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="hardware/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infrastruttura Hardware
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="normativa11/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normativa fiscale
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="schemadiconnessione/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connessioni di rete
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#obiettivo-del-portale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Obiettivo del portale
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#la-visione-commerciale-e-le-novita-analisi-edge-n-vs-edge-n" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        La Visione Commerciale e le Novità (Analisi EDGE-N vs EDGE-N+)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="La Visione Commerciale e le Novità (Analisi EDGE-N vs EDGE-N+)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mercati-di-riferimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mercati di riferimento
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caratteristiche-hardware-edge-n" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caratteristiche Hardware EDGE-N:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#levoluzione-di-edge-n" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        L'evoluzione di EDGE-N+:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rivoluzione-softpos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rivoluzione SoftPOS:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sintesi-hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sintesi hardware
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#materiale-informativo-utile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Materiale informativo utile
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="edge-n-e-n"><strong>EDGE N e N+</strong></h1>
+<h3 id="obiettivo-del-portale">Obiettivo del portale</h3>
+<p>Questo portale documentale ha l'obiettivo di fornire le competenze tecniche necessarie per l'installazione, la configurazione e la manutenzione dei dispositivi telematici di <strong>Custom S.p.A.</strong> della serie <strong>EDGE</strong>.</p>
+<p>Siamo convinti che con questo metodo di condivisione delle conoscenze, tramite sito dedicato, saremo in grado di soddisfare le necessità operative di voi <strong><em>Partners</em></strong>, con l'intento di mantenere costantemente aggiornata la documentazione ed offrendo un canale di comunicazione rapido, efficace e di facile consultazione.</p>
+<p><img alt="EDGE N+" src="assets/images/EDGE-N%2B_5.png" /></p>
+<p>In questo spazio analizziamo l'intera architettura hardware e software: partendo dalle caratteristiche hardware dei dispositivi, passando per le specifiche normative RT XML 7 Versione 11.1 dell'Agenzia delle Entrate, continuando con le configurazioni di rete per il corretto adempimento degli obblighi telematici, fino alle <em>best practice</em> di intervento e al troubleshooting.</p>
+<p>La formazione si concentrerà inoltre sull'utilizzo dei registratori telematici Edge N / N+ in abbinamento con il software di frontend <strong>KEEPUP SMART</strong>, con particolare attenzione alla configurazione di <strong>Edge N+</strong> per pagamenti digitali tramite applicativo <strong>SOFTPOS</strong> in convenzione con <strong>CUSTOM PAY</strong>.</p>
+<hr />
+<p>Trattandosi di device <strong>"All-in-One"</strong> molto evoluti, il portale non si limiterà alla sola parte fiscale, ma affronterà l'architettura di sistema e le logiche di rete.</p>
+<h3 id="la-visione-commerciale-e-le-novita-analisi-edge-n-vs-edge-n">La Visione Commerciale e le Novità (Analisi EDGE-N vs EDGE-N+)</h3>
+<p><em>Ad ogni necessità corrisponde il registratore telematico corretto</em> <br />
+Per questo motivo è importante conoscere le caratteristiche della famiglia EDGE ed il salto generazionale tra la versione <em>N</em> e la versione <em>N+</em>.<br />
+Il concetto "All-in-One": Unione di un PC POS Mobile e un RT in un design compatto per entrambi i modelli, nel pieno rispetto dell'ultima normativa Xml 7 V.11.1, sono fondamentali per indirizzare il corretto esercente verso la serie Edge.</p>
+<h4 id="mercati-di-riferimento">Mercati di riferimento</h4>
+<ul>
+<li><strong>Minimarket:</strong> Form factor compatto <em>All-in-One</em> ideale per banchi cassa con spazio limitato e necessità di collegamento diretto a scanner barcode USB.</li>
+<li><strong>Retail Tradizionale:</strong> Architettura LAN cablata (Ethernet RJ45) che garantisce la massima stabilità nella trasmissione telematica XML dei corrispettivi.</li>
+<li><strong>Forni e Pasticcerie:</strong> Interfaccia Touchscreen capacitiva industriale adatta a ritmi di digitazione elevati e facile sanificazione del pannello frontale.</li>
+<li><strong>Negozi di prossimità:</strong> Soluzione che integra RT e logica applicativa eliminando la necessità di PC dedicati e riducendo i punti di guasto hardware (SPOF).</li>
+<li><strong>Ambulanti Evoluti:</strong> Operatività in mobilità garantita da batteria Li-Ion sostituibile, connettività 4G/LTE nativa e display ad alta luminosità per uso esterno.</li>
+</ul>
+<hr />
+<h3 id="caratteristiche-hardware-edge-n">Caratteristiche Hardware EDGE-N:</h3>
+<p>Il modello di partenza è basato su sistema operativo Android 12, dotato di 2 GB di RAM DDR e 16 GB di memoria flash eMMC. Dispone di un monitor touch da 8", NFC integrato e una velocità di stampa di 80 mm/sec.  </p>
+<h3 id="levoluzione-di-edge-n">L'evoluzione di EDGE-N+:</h3>
+<p>Questo modello potenzia l'hardware passando ad <strong>Android 13</strong> con certificazione <strong><em>GMS (Google Mobile Services</em>)</strong> e aggiornamenti OTA. La memoria raddoppia a 4 GB RAM / 64 GB flash e la velocità di stampa sale a 120 mm/sec.</p>
+<h3 id="rivoluzione-softpos">Rivoluzione SoftPOS:</h3>
+<p>L'adozione del sistema operativo Android 13 sull'EDGE-N+ rappresenta un salto generazionale cruciale, in quanto il dispositivo vanta la certificazione ufficiale GMS (Google Mobile Services). Questa integrazione certificata direttamente da Google trasforma il registratore telematico in un vero e proprio ecosistema mobile avanzato, garantendo la piena compatibilità e stabilità con le più moderne applicazioni (come quelle indispensabili per gestire i pagamenti elettronici integrati tramite tecnologia SoftPOS) e assicurando la ricezione automatica degli aggiornamenti critici e di sicurezza in modalità OTA (Over The Air), mantenendo così la macchina costantemente protetta, aggiornata e performante nel tempo senza richiedere complessi interventi manuali. </p>
+<hr />
+<h3 id="sintesi-hardware">Sintesi hardware</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>CUSTOM EDGE N+</strong> <br></th>
+<th style="text-align: left;"><strong>CUSTOM EDGE N</strong> <br></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><img alt="EDGE N+" src="assets/images/EDGE-N%2B_5.png" /></td>
+<td style="text-align: left;"><img alt="EDGE N" src="assets/images/edge_n_home.png" /></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Core:</strong> Android™ 13 (Hexa-Core)</td>
+<td style="text-align: left;"><strong>Core:</strong> Android™ 12 (Quad-Core)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Connettività:</strong> Wi-Fi, 4G, BT, Eth</td>
+<td style="text-align: left;"><strong>Connettività:</strong> Wi-Fi, 4G, BT, Eth</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Innovazione:</strong> Predisposto SoftPOS (NFC Avanzato)</td>
+<td style="text-align: left;"><strong>Mobilità:</strong> Ottimizzato per uso ambulante</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Target:</strong> App intensive e terze parti</td>
+<td style="text-align: left;"><strong>Target:</strong> Standard Retail e KeepUp</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RT:</strong> Nativo V11.1 (Crypto-chip)</td>
+<td style="text-align: left;"><strong>RT:</strong> Nativo V11.1 (Crypto-chip)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Scarica qui la scheda prodotto di <a href="assets/resources/edge-n.pdf"><strong>Edge N</strong></a></td>
+<td style="text-align: left;"><em>Scarica qui la scheda prodotto</em> di <a href="assets/resources/edge-n.pdf"><strong>Edge N</strong></a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="materiale-informativo-utile">Materiale informativo utile</h3>
+<ul>
+<li>Scheda prodotto di <a href="assets/resources/edge-n%2B.pdf"><strong>Edge N+</strong></a></li>
+<li>Scheda prodotto di <a href="assets/resources/edge-n.pdf"><strong>Edge N</strong></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Torna su
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Piede" >
+        
+        
+          
+          <a href="hardware/" class="md-footer__link md-footer__link--next" aria-label="Successivo: Edge N+">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Successivo
+              </span>
+              <div class="md-ellipsis">
+                Edge N+
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright Custom S.p.A 2026
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.preview", "navigation.instant.progress", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.path", "navigation.sections", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.top", "search.suggest", "search.highlight", "search.share", "navigation.footer"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
