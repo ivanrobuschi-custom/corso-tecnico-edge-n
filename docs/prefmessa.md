@@ -4,7 +4,7 @@ I Registratori Telematici (RT) della serie Edge, in stretta conformità con le s
 ## Video Tutorial **MESSA IN SERVIZIO RT**
 
 <video controls width="100%">
-  <source src="/corso-tecnico-edge-n/assets/resources/messainservizio.mp4" type="video/mp4">
+  <source src="/corso-tecnico-edge-n/assets/resources/messaservizio.mp4" type="video/mp4">
   Il tuo browser non supporta il tag video.
 </video>
 
