@@ -53,6 +53,8 @@ nav:
           - Errore Xml 409: errore409.md
   - Connessioni di rete: 
         - Schema connessione interna: schemadiconnessione.md
-        - Tipo di connessione esterna: 
+        - Metodi di connessione ad internet: 
             - Connessione Ethernet: connessione_eth.md
             - Connessione WiFi: connessione_wifi.md
+  - Messa in servizio: 
+
