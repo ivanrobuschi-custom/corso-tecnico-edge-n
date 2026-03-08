@@ -3,7 +3,7 @@
 ## VIDEO TUTORIAL VP POSITIVA
 
 <video controls width="100%">
-  <source src="/corso-tecnico-edge-n/assets/resource/vppositiva.mp4" type="video/mp4">
+  <source src="/corso-tecnico-edge-n/assets/resources/vppositiva.mp4" type="video/mp4">
   Il tuo browser non supporta il tag video.
 </video>
 

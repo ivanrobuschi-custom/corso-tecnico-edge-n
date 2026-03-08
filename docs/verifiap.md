@@ -11,10 +11,10 @@ Le verificazioni periodiche effettuate dai tecnici dei laboratori abilitati prev
 - prove minime come da [descrizione prove minime in VP](assets/resources/Descrizioneproveminime_v1.pdf)
 - controllo, mediante prova a campione, del regolare funzionamento del modulo fiscale (ad esempio, la simulazione di alcune operazioni commerciali e conseguente verifica – mediante lettura e stampa, anche virtuale – della corretta registrazione dei dati nella memoria permanete di dettaglio e in quella di riepilogo, nonché la chiusura di cassa, l’invio del file XML e il riscontro dell’esito da parte del Sistema AE).
 
-!!! warning 
-    Al termine delle operazioni di verifica periodica, il tecnico registra - mediante apposita funzionalità del RT - l’esito della verificazione eseguita rispettando la codifica prevista nella tabella 9 dell’allegato “Code List”. Tutte le informazioni, quindi anche CF del tecnico e la PIVA del laboratorio, verranno memorizzate nella memoria permanente di riepilogo e inviate, insieme ai dati dei corrispettivi, alla prima trasmissione successiva alla verificazione periodica.
-    Il dispositivo deve essere in grado di proporre degli avvisi all’utente a partire dai 30 giorni precedenti la scadenza.
-    In caso di superamento della data della Verificazione Periodica il dispositivo stampa in chiusura giornaliera l’indicazione di “Registratore Telematico privo di VP”.
+!!! warning "Attenzione"
+    Al termine delle operazioni di verifica periodica, il tecnico registra - mediante apposita funzionalità del RT - l'esito della verificazione eseguita rispettando la codifica prevista nella tabella 9 dell'allegato "Code List". Tutte le informazioni, quindi anche CF del tecnico e la PIVA del laboratorio, verranno memorizzate nella memoria permanente di riepilogo e inviate, insieme ai dati dei corrispettivi, alla prima trasmissione successiva alla verificazione periodica.
+    Il dispositivo deve essere in grado di proporre degli avvisi all'utente a partire dai 30 giorni precedenti la scadenza.
+    In caso di superamento della data della Verificazione Periodica il dispositivo stampa in chiusura giornaliera l'indicazione di "Registratore Telematico privo di VP".
 
 ## Lista codici di intervento tecnico
 
