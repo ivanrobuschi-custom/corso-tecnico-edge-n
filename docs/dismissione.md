@@ -1,6 +1,6 @@
 # DISMISSIONE RT
 
-## Introduzione Normativa alla Dismissione
+## Normativa Dismissione
 
 Dal punto di vista normativo, secondo le Specifiche Tecniche RT dell'Agenzia delle Entrate, la "Dismissione" rappresenta la fase conclusiva e irreversibile del ciclo di vita di un Registratore Telematico.
 Tale stato comporta la cessazione definitiva di ogni operatività fiscale e logica del dispositivo, rendendolo permanentemente inidoneo alla memorizzazione e trasmissione dei corrispettivi.
@@ -27,5 +27,5 @@ A differenza della Disattivazione, al termine del processo di Dismissione il Reg
 _**Esito**_: Il registratore telematico genererà un file con estensione .xml (contenente l'ultimo invio dei corrispettivi e la comunicazione di variazione stato in "Dismesso") che verrà trasmesso in automatico al sistema dell'Agenzia delle Entrate.
 _**Stampa di Controllo**_: A conferma del successo dell'operazione, la stampante emetterà un documento non fiscale con l'attestazione di avvenuta dismissione.
 
-!!! danger "ATTENZIONE"
+!!! wanrning "ATTENZIONE"
     Da questo momento il Registratore Telematico è DISMESSO in modo permanente. Non sarà più possibile emettere documenti commerciali né ripristinare la macchina per utilizzi fiscali futuri.
