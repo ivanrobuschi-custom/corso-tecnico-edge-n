@@ -57,5 +57,13 @@ nav:
             - Connessione Ethernet: connessione_eth.md
             - Connessione WiFi: connessione_wifi.md
             - Connessione Sim dati: simdati.md
-  - Messa in servizio: prefmessa.md
+  - Procedure rt:
+    - Messa in servizio: prefmessa.md
+    - Disattivazione: disattivazione.md
+    - Dismissione: dismissione.md
+  - Configurazione KeepUp Smart:
+
+
+
+
    
