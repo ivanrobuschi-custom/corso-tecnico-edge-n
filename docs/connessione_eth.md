@@ -1,4 +1,4 @@
-# Procedure di configurazione Ethernet
+# Come connettere EDGE N/N+ tramite ETHERNET
 
 ## Video Tutorial CONNESSIONE ETHERNET
 
@@ -7,7 +7,7 @@
   Il tuo browser non supporta il tag video.
 </video>
 
-## Configurazione rete Modulo Fiscale
+## Configurazione Ethernet Modulo Fiscale
 
 * Avviare UtilityX RT
 * All'interno del menù **UTILITA'** premere la voce **CONFIGURAZIONE ETHERNET ECR**
@@ -20,7 +20,7 @@
 ![](assets/images/statoconfig.png)
 * Premere **ESCI** per uscire dall'applicazione UtilityX RT, in quanto configurazione lato Modulo Fiscale, conclusa.
 
-## Impostazione rete Android
+## Impostazione Ethernet Modulo Android
 
 * Premere l'icona **IMPOSTAZIONI**
 * Selezionare la voce **RETE E INTERNET**
@@ -35,3 +35,6 @@
 ![](assets/images/salva.png)
 * Riavviare il dispositivo tenendo premuto il pulsante di accensione per almeno 3 secondi e selezionare **RIAVVIA**, per rendere effettive le modifiche.
 ![]()(assets/images/riavvia.png)
+
+### Scarica la guida alle connessioni di rete 
+[Guida di configurazione Edge N / N+](assets/resources/guidaconnessioniedge.PDF)
