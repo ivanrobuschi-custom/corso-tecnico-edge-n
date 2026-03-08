@@ -56,5 +56,6 @@ nav:
         - Metodi di connessione ad internet: 
             - Connessione Ethernet: connessione_eth.md
             - Connessione WiFi: connessione_wifi.md
-  - Messa in servizio: 
-
+            - Connessione Sim dati: simdati.md
+  - Messa in servizio: prefmessa.md
+   

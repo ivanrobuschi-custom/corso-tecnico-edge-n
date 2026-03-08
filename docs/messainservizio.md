@@ -1,1 +1,0 @@
-Di seguito la procedura 
