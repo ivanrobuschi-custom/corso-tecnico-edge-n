@@ -26,7 +26,7 @@ Oppure tramite utilizzo di applicativo UtilityX rt
 
 * Selezionare _MENU' TECNICO_
 * Inserire Password: 147896
-* Selezionare: EVENTOEvento
+* Selezionare: EVENTO
 * FUORI SERVIZIO
 * Codice 608 - magazzino
 * Registra Evento 

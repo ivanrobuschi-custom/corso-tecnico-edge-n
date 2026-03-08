@@ -8,7 +8,7 @@ Tale stato comporta la cancellazione formale dell'associazione logica tra la mat
 Questa procedura è normativamente richiesta e tracciata con specifici codici in casistiche precise, quali la cessione del dispositivo a terzi (a qualsiasi titolo, inclusa la vendita di macchine usate, rivenditori o trasformazioni societarie sostanziali) o in caso di furto.
 Al termine del processo di disattivazione, il Registratore Telematico perde la sua operatività fiscale e diviene atto ad emettere esclusivamente Documenti Gestionali.
 
-!!! warnin "NOTA BENE"
+!!! warning "NOTA BENE"
     È cruciale, come indicato dalle nuove regole sulla gestione dei disallineamenti, che questa variazione di stato venga comandata direttamente dal dispositivo fisico e trasmessa al server telematico.
     Se un esercente disattiva la cassa esclusivamente dal portale web "Fatture e Corrispettivi", si crea un'incongruenza critica che manda in blocco la macchina impedendo l'emissione di documenti commerciali. 
     [vedere risoluzione disallineamento](docs/errore409.md)
@@ -30,4 +30,3 @@ _**Stampa di Controllo**_: A conferma del successo dell'operazione, la stampante
 
 !!! warning 
     da questo momento la RT è disattivata e non sarà possibile emettere DOCUMENTI COMMERCIALI!
-

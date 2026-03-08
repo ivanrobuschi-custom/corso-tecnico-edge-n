@@ -8,6 +8,7 @@ I Registratori Telematici (RT) della serie Edge, in stretta conformità con le s
   Il tuo browser non supporta il tag video.
 </video>
 
+
 ---
 
 #### DOCUMENTAZIONE UTILE
@@ -57,13 +58,14 @@ Accedere a **MENU' TECNICO**
 
 ## Attivazione
 L'attivazione è la procedura attraverso la quale il Registratore Telematico (RT), già riconosciuto dal sistema dell'Agenzia delle Entrate nello stato **"censito"**, viene associato in modo univoco all'esercente che lo utilizzerà.
-. Questa operazione è riservata a un tecnico abilitato, il quale inserisce nel dispositivo (precedentemente fiscalizzato) i propri dati identificativi, la Partita IVA del laboratorio e i dati fiscali dell'esercente
-. L'RT trasmette automaticamente la richiesta di attivazione al server dell'Agenzia delle Entrate
-. Al termine della procedura, lo stato del dispositivo diventa "Attivato" e viene generato un QR Code identificativo, che l'esercente deve obbligatoriamente scaricare, stampare e applicare sul registratore in un punto ben visibile alla clientela.
+Questa operazione è riservata a un tecnico abilitato, il quale inserisce nel dispositivo (precedentemente fiscalizzato) i propri dati identificativi, la Partita IVA del laboratorio e i dati fiscali dell'esercente.
+- L'RT trasmette automaticamente la richiesta di attivazione al server dell'Agenzia delle Entrate
+- Al termine della procedura, lo stato del dispositivo diventa "Attivato" e viene generato un QR Code identificativo, che l'esercente deve obbligatoriamente scaricare, stampare e applicare sul registratore in un punto ben visibile alla clientela.
 
 ### Attivazione da UtilityX RT
 Accedere a **MENU' TECNICO**
-- Passwornd **741236**
+
+- Password **741236**
 - ATTIVAZIONE** 
 - Inserire i dati richiesti: 
     -   Codice fiscale tecnico
@@ -74,6 +76,6 @@ Accedere a **MENU' TECNICO**
     -   C.A.P punto vendita
     -   Flag ON **Telematico**
     -   Flag ON **Attiva adesso**
+    
 
 ![](assets/images/attivazione.png)
-

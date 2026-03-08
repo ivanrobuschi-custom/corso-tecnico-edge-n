@@ -18,4 +18,6 @@ Questa architettura all'avanguardia garantisce il recepimento automatico di tutt
 * Implementazioni alla funzione di censimento dispositivo, obiettivo è standardizzare i dati inserendo una nuova anagrafica per marca e modello del dispositivo. Paragrofo di riferimento 2.3 Processo di certificazione per l'identificazione delle apparecchiature RT.
 * Definito formato ridotto QR code per dispositivi palmari
 
+---
 
+[versione V. 11.2 del 05 marzo 2026](assets/resources/Specifiche_Tecniche_RT_V11.2.pdf)

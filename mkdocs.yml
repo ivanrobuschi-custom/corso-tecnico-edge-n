@@ -20,7 +20,6 @@ theme:
     - navigation.indexes
     # - toc.integrate
     - navigation.top
-    - navigation.top
     - search.suggest
     - search.highlight
     - search.share
@@ -52,15 +51,18 @@ nav:
           - disallineamento.md
           - Errore Xml 409: errore409.md
   - Connessioni di rete: 
-        - Schema connessione interna: schemadiconnessione.md
-        - Metodi di connessione ad internet: 
-            - Connessione Ethernet: connessione_eth.md
-            - Connessione WiFi: connessione_wifi.md
-            - Connessione Sim dati: simdati.md
+      - Schema connessione interna: schemadiconnessione.md
+      - Metodi di connessione ad internet: 
+          - Connessione Ethernet: connessione_eth.md
+          - Connessione WiFi: connessione_wifi.md
+          - Connessione Sim dati: simdati.md
   - Procedure rt:
-        - Messa in servizio: prefmessa.md
-        - Disattivazione: disattivazione.md
-        - Dismissione: dismissione.md
+      - Messa in servizio: prefmessa.md
+      - Disattivazione: disattivazione.md
+      - Dismissione: dismissione.md
+      - Verifica peridica: 
+          - vp.md
+          - Procedura vp: proceduravp.md  
   - Troubleshooting: 
         - Reset 1,3: reset.md
 #  - Configurazione KeepUp Smart:
