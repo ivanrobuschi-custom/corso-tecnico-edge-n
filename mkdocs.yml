@@ -69,7 +69,8 @@ nav:
           - Normativa vp: verifiap.md
           - Procedura vp: proceduravp.md
   - Pagamento NFC integrato: softpos.md          
-  - Troubleshooting: trouble.md
+  - Troubleshooting:
+      - trouble.md
       - Reset 1,3: reset.md
 #  - Configurazione KeepUp Smart:
 
