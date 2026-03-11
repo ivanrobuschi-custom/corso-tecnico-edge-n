@@ -49,7 +49,7 @@ Questo certificato viene salvato nella memoria inalterabile del registratore e s
 
 Accedere a **MENU' TECNICO**
 
-- Password **741236**
+- Password **147896**
 - **CENSIMENTO**
 - Inserire **CODICE FISCALE TECNICO** 
 - Inserire **PARTITA IVA LABORATORIO** 

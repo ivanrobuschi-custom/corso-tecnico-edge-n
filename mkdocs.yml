@@ -61,15 +61,15 @@ nav:
           - Connessione Ethernet: connessione_eth.md
           - Connessione WiFi: connessione_wifi.md
           - Connessione Sim dati: simdati.md
-  - Procedure rt:
+  - Procedure Telematiche:
       - Messa in servizio: prefmessa.md
       - Disattivazione: disattivazione.md
       - Dismissione: dismissione.md
       - Verifica periodica: 
           - Normativa vp: verifiap.md
           - Procedura vp: proceduravp.md  
-  - Troubleshooting: 
-        - Reset 1,3: reset.md
+  - Troubleshooting:
+      - Reset 1,3: reset.md
 #  - Configurazione KeepUp Smart:
 
    

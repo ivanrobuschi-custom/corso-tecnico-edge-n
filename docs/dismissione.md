@@ -14,7 +14,7 @@ A differenza della Disattivazione, al termine del processo di Dismissione il Reg
 
 ## Procedura di Dismissione tramite UtilityX RT
 
-- Aprire l'app **UtilityX RT**, selezionare la voce **MENÙ TECNICO** e inserire la password di protezione 741236.
+- Aprire l'app **UtilityX RT**, selezionare la voce **MENÙ TECNICO** e inserire la password di protezione 147896.
 - Selezionare la voce **EVENTO**.
 - Accedere al pannello di gestione degli stati della macchina e selezionare **DISMISSIONE**.
 - Selezionare la causale o il Codice Evento appropriato per la dismissione:
