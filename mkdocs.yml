@@ -40,8 +40,7 @@ plugins:
   - search
   - tags
 
-copyright: Copyright Custom S.p.A 2026
-
+copyright: Copyright Custom S.p.A 2026 by Ivan Robuschi Pre-sales
 
 nav:
   - Serie Edge: index.md
@@ -69,7 +68,7 @@ nav:
           - Procedura vp: proceduravp.md
   - Pagamento integrato:
       - Introduzione: softpos.md
-      - Edge N+ e Softpos: softoposedge.md
+      - Edge N+ e Softpos: softposedge.md
   - Troubleshooting:
       - trouble.md
       - Reset 1: reset1.md
