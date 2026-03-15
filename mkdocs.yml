@@ -69,7 +69,7 @@ nav:
           - Procedura vp: proceduravp.md
   - Pagamento integrato:
       - Introduzione: softpos.md
-      - Edge N+ e Softpos: softposedge.md
+      - Edge N+ e Softpos: softoposedge.md
   - Troubleshooting:
       - trouble.md
       - Reset 1: reset1.md
