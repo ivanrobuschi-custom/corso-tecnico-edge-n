@@ -11,7 +11,7 @@
 
 ## PROCEDURA DA UTILITYX RT
 
-- Aprire l'app **UtilityX RT**, selezionare la voce **MENÙ TECNICO** e inserire la password di protezione 741236
+- Aprire l'app **UtilityX RT**, selezionare la voce **MENÙ TECNICO** e inserire la password di protezione 147896
 - Selezionare la voce **INTERVENTO TECNICO**
 - **INIZIO PROCEDURA DI VERIFICA**
 - Effettuare le prove previste dalla propria CHECK LIST

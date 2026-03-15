@@ -45,16 +45,18 @@ copyright: Copyright Custom S.p.A 2026
 
 nav:
   - Serie Edge: index.md
-  - Infrastruttura Hardware:
-      - Edge N+: hardware.md
-      - Edge N: hardwareedgen.md
-  - Normativa fiscale:
-      - Introduzione: normativa11.md
+  - Normativa RT:
+      - XML7 Ver 11.1: normativa11.md
+      - XML7 Ver 11.2: normativa11_2.md
       - Chiusure ore 24: chiusuragiornaliera.md
       - Periodo d'inattività: periodoinattivita.md
+      - Sigillo Fiscale Digitale: tamper.md
       - Disallineamenti Ade:
           - disallineamento.md
           - Errore Xml 409: errore409.md
+  - Infrastruttura Hardware:
+      - Edge N+: hardware.md
+      - Edge N: hardwareedgen.md
   - Connessioni di rete: 
       - Schema connessione interna: schemadiconnessione.md
       - Metodi di connessione ad internet: 
@@ -72,6 +74,9 @@ nav:
   - Troubleshooting:
       - trouble.md
       - Reset 1: reset1.md
+      - Disallineamenti Ade:
+          - disallineamento.md
+          - Errore Xml 409: errore409.md
 #  - Configurazione KeepUp Smart:
 
    

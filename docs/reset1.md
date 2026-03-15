@@ -6,4 +6,3 @@
   <source src="/corso-tecnico-edge-n/assets/resources/reset_1_low.mp4" type="video/mp4">
   Il tuo browser non supporta il tag video.
 </video>
-

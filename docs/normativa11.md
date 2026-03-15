@@ -10,14 +10,20 @@ Questa architettura all'avanguardia garantisce il recepimento automatico di tutt
 * * Inserito il paragrafo 2.11 – [**Nuova gestione CHIUSURE GIORNALIERE**](chiusuragiornaliera.md) per le novità riguardanti l’assenza di chiusure giornaliere del registratore telematico entro le ore 24:00.
 * Fornite precisazioni relative al comportamento del RT in caso di [**periodo di inattività**](periodoinattività.md)
 * Aggiunto un nuovo servizio che in caso di [**disallineamento fra lo stato locale del RT e quello presente sui sistemi dell’Agenzia obbliga il RT**](disallineamento.md) a riallinearsi.
-* Aggiornati i formati di esportazione della memoria di dettaglio e di riepilogo
-* Aggiunto un nuovo servizio di messaggistica che consente all’Agenzia di inviare messaggi codificati al RT, specificato nel paragrafo 2.5, all'interno della specifica sottosezione "Integrazione della messaggistica per il RT".
-* Modificato il formato dei file XML per l’estrazione della memoria di riepilogo e della memoria di dettaglio per aggiungere informazioni ed adeguarle a quelle attualmente memorizzate nelle memorie fiscali. Riferimento al Paragrafo 2.1 (Caratteristiche Hardware e Software) e Paragrafo 5.2 (Formato Dati).
-* Inseriti i requisiti per il documento commerciale digitale, all'interno delParagrafo 2.1 (Caratteristiche Hardware e Software), all'interno della sezione dedicata al "Documento Commerciale" 
-* Fornite indicazioni relative alla lotteria dei corrispettivi ad estrazione differita e istantanea, tali indicazioni si trovano nel Paragrafo 2.1 (Caratteristiche Hardware e Software), all'interno della sezione "Documento Commerciale".
-* Implementazioni alla funzione di censimento dispositivo, obiettivo è standardizzare i dati inserendo una nuova anagrafica per marca e modello del dispositivo. Paragrofo di riferimento 2.3 Processo di certificazione per l'identificazione delle apparecchiature RT.
-* Definito formato ridotto QR code per dispositivi palmari
+* Aggiornati i formati di _esportazione della memoria di dettaglio e di riepilogo_
+* Aggiunto un nuovo servizio di messaggistica che _consente all’Agenzia di inviare messaggi codificati al RT_.
+* Modificato il formato dei file _XML per l’estrazione della memoria di riepilogo e della memoria di dettaglio_ per aggiungere informazioni ed adeguarle a quelle attualmente memorizzate nelle memorie fiscali.
+* Inseriti i requisiti per il _documento commerciale digitale_.
+* Fornite indicazioni relative alla _lotteria dei corrispettivi ad estrazione differita e istantanea_.
+* Implementazioni alla _funzione di censimento dispositivo_, obiettivo è standardizzare i dati inserendo una nuova anagrafica per marca e modello del dispositivo.
+* Definito _formato ridotto QR code_ per dispositivi palmari
 
 ---
 
-[versione V. 11.2 del 05 marzo 2026](assets/resources/Specifiche_Tecniche_RT_V11.2.pdf)
+## Le ultime Variazioni alle Specifiche Tecniche RT V11.2
+Se vuoi conoscere le ultimissime variazioni introdotte da AdE marzo 26, vai a [XML7 Ver 11.2](normativa11_2.md)
+Ad oggi la serie **EDGE** è omologata secondo le specifiche XML 7 V 11.1, ma ha già introdotto la normativa relativa al [**Sigillo Fiscale Digitale**](tamper.md)
+
+[Scarica qui le nuove specifiche Tecniche RT V. 11.2 del 05 marzo 2026](assets/resources/Specifiche_Tecniche_RT_V11.2.pdf)
+[Variazione alle Specifiche Tecniche RT V. 11.1 del 26 gennaio 2024](assets/resources/Variazionicorrispettivi4marzo2026.pdf)
+
