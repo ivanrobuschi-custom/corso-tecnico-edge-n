@@ -1,4 +1,4 @@
-# Soluzione SoftPOS Nexi & Custom Pay
+# Custom Pay con SoftPos Nexi e sei sicuro
 ## L'Ecosistema Unificato per i Pagamenti Digitali
 
 L'integrazione tra i dispositivi Android serie EDGE (**modello N+**) e i servizi di acquiring **Custom Pay / Nexi** rappresenta un'evoluzione architetturale del punto cassa. 

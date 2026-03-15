@@ -67,8 +67,10 @@ nav:
           - Normativa vp: verifiap.md
           - Procedura vp: proceduravp.md
   - Pagamento integrato:
-      - Introduzione: softpos.md
-      - Edge N+ e Softpos: softposedge.md
+      - Normativa collegamento RT/POS: scambio.md
+      - Custom Pay=La Soluzione: softpos.md
+      - Edge N+ e SoftPos: softposedge.md
+      - Il trio perfetto!: kusedge.md
   - Troubleshooting:
       - trouble.md
       - Reset 1: reset1.md
