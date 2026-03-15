@@ -1,5 +1,5 @@
 # IL TRIO PERFETTO PER LO SCAMBIO IMPORTO?
-# **KEEPUP SMART + NEXI SOFTPOS + EDGE N+**
+## **KEEPUP SMART + NEXI SOFTPOS + EDGE N+**
 
 Il Custom EDGE-N+ rivoluziona l'operatività del punto vendita grazie alla sua architettura **"All-in-One"**. Essendo un dispositivo basato su **Android 13 GMS**, dotato di **antenna NFC** integrata e certificato per l'utilizzo delle tecnologie **SoftPOS (Tap to Pay)**, elimina completamente la necessità di interfacciarsi con un terminale POS bancario esterno!  
 Questa grande dote di EDGE N+ è amplificata ancora di più grazie al software di vendita **KeepUp Smart**, pensato per supportare l'esercente in tutte le fasi di vendita e gestione del moderno punto cassa! 
@@ -46,5 +46,6 @@ L'abilitazione dello scambio importo diretto all'interno del medesimo ecosistema
     All'interno del software KeepUp Smart sono disponibili tasti funzione per effettuare facilmente:
     * Storno ultima operazione Pos eseguita
     * Ristampa ultima transazione
-    * Chiusura di giornata pos, eseguibile direttamente tramite la normale chiusura di giornata Z fiscale
+    * Chiusura POS
+    * Richiesta di pagamento manuale senza documento commerciale
 
