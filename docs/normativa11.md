@@ -21,9 +21,9 @@ Questa architettura all'avanguardia garantisce il recepimento automatico di tutt
 ---
 
 ## Le ultime Variazioni alle Specifiche Tecniche RT V11.2
-Se vuoi conoscere le ultimissime variazioni introdotte da AdE marzo 26, vai a [XML7 Ver 11.2](normativa11_2.md)
-Ad oggi la serie **EDGE** è omologata secondo le specifiche XML 7 V 11.1, ma ha già introdotto la normativa relativa al [**Sigillo Fiscale Digitale**](tamper.md)
+Se vuoi conoscere le ultimissime variazioni introdotte da AdE marzo 26, vai a [XML7 Ver 11.2](normativa11_2.md)  
 
-[Scarica qui le nuove specifiche Tecniche RT V. 11.2 del 05 marzo 2026](assets/resources/Specifiche_Tecniche_RT_V11.2.pdf)
-[Variazione alle Specifiche Tecniche RT V. 11.1 del 26 gennaio 2024](assets/resources/Variazionicorrispettivi4marzo2026.pdf)
+Ad oggi la serie **EDGE** è omologata secondo le specifiche XML 7 V 11.1, ma ha già introdotto la normativa relativa al [**Sigillo Fiscale Digitale.**](tamper.md)
+
+[Scarica qui le nuove specifiche Tecniche RT V. 11.2 del 05 marzo 2026](assets/resources/Specifiche_Tecniche_RT_V11.2.pdf) e vedi [qui i principali cambiamenti.](assets/resources/Variazionicorrispettivi4marzo2026.pdf)
 
