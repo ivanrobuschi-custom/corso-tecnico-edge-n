@@ -38,6 +38,7 @@ L'obbligo decorre dal 1° gennaio 2026, con la procedura web disponibile dal **5
 * Disallineamenti: In caso di operazioni esonerate (es. tabacchi) o emissione di fatture tramite POS collegato, i fisiologici disallineamenti tra dati RT e POS non comporteranno automatismi di accertamento, purché giustificabili.Regime Sanzionatorio: L'omesso collegamento o il mancato rispetto dei termini comporta sanzioni per l'esercente da 1.000 a 4.000 euro.
 
 T'invitiamo a consultare il nostro sito dedicato:
-[COLLEGAMENTO-POS_RT-2026.](https://ivanrobuschi-custom.github.io/COLLEGAMENTO-POS_RT-2026/)
+[COLLEGAMENTO-POS_RT-2026.](https://ivanrobuschi-custom.github.io/COLLEGAMENTO-POS_RT-2026/)  
+
 [Scarica il qr e condividilo](assets/images/qrcode_RT_POS.png)
 ![SCANSIONA IL QR](assets/images/qrcode_RT_POS.png)
