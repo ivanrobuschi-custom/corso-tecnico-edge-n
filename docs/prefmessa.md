@@ -1,7 +1,7 @@
 # Messa in servizio RT Serie Edge
 I Registratori Telematici (RT) della serie Edge, in stretta conformità con le specifiche tecniche dettate dall'Agenzia delle Entrate, richiedono una rigorosa procedura di messa in servizio prima del loro effettivo utilizzo presso l'esercente finale.
 
-## Video Tutorial **MESSA IN SERVIZIO RT**
+## 🎬 Video Tutorial **MESSA IN SERVIZIO RT**
 
 <video controls width="100%">
   <source src="/corso-tecnico-edge-n/assets/resources/messaservizio.mp4" type="video/mp4">

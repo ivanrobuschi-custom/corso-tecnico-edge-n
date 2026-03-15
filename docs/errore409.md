@@ -40,7 +40,7 @@ di seguito esempio di P-699 in _STATO DISALLINEATO_
 Per ripristinare il funzionamento e riallineare la cassa, il tecnico deve eseguire una nuova procedura di **ATTIVAZIONE** direttamente dal dispositivo.
 Questa operazione può essere eseguita tramite l'app UtilityX RT procedendo come da video tutorial:
 
-## Video Tutorial FUORI SERVIZIO
+## 🎬 Video Tutorial FUORI SERVIZIO
 
 <video controls width="100%">
   <source src="/corso-tecnico-edge-n/assets/resources/409.mp4" type="video/mp4">
