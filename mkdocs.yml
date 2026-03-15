@@ -72,11 +72,14 @@ nav:
       - Edge N+ e SoftPos: softposedge.md
       - Scambio Importo, come farlo? Bene!: kusedge.md
   - Troubleshooting:
-      - trouble.md
+      - Scopo della sezione: trouble.md
       - Reset 1: reset1.md
       - Disallineamenti Ade:
-          - disallineamento.md
+          - Disallineamento RT/AdE: disallineamento.md
           - Errore Xml 409: errore409.md
 #  - Configurazione KeepUp Smart:
+  - Gioca con Edge:
+    - Let's play!: troubleshooting_flashcards.md
+    - Il podcast di Edge: podcast.md
 
    

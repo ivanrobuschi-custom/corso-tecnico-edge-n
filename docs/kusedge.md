@@ -42,6 +42,12 @@ L'abilitazione dello scambio importo diretto all'interno del medesimo ecosistema
 6. **Salvare** la configurazione. 
     * *Nota Tecnica:* A differenza dei POS tradizionali, non sono richiesti parametri di indirizzamento IP o porte seriali, in quanto il payload viene scambiato internamente dal sistema operativo.
 
+### Step 2: Mappatura del Tasto di Pagamento
+Per automatizzare il processo in cassa, è consigliato impostare il tasto di pagamento rapido **Pos esterno** sulla schermata di vendita.
+1. Long press sul metodo di pagamento da modificare.
+2. Selezionare la forma di pagamento elettronica **Pos Esterno**.
+3. Salvare il layout e riavviare l'ambiente di Frontend se richiesto.
+
 !!! note "Nota Bene"
     All'interno del software KeepUp Smart sono disponibili tasti funzione per effettuare facilmente:
     * Storno ultima operazione Pos eseguita
