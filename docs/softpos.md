@@ -45,5 +45,3 @@ Il processo di attivazione è progettato per ridurre il carico burocratico sul d
 1. **Raccolta Dati:** Il dealer compila il modulo di lead con i dati dell'esercente e l'IBAN di destinazione.
 2. **Processo Acquiring:** Custom Pay e Nexi gestiscono le verifiche normative (KYC) e l'approvazione del contratto.
 3. **Attivazione Dispositivo:** Una volta approvato, il terminale EDGE N+ riceve le credenziali di attivazione (Terminal ID) per l'abilitazione immediata dell'App SoftPOS.
-
-[Presentazione soluzioni Custom Pay](assets/resources/TecnicoCpayFebbraio26.pptx)
