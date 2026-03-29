@@ -1,6 +1,6 @@
 # TAMPER - SIGILLO FISCALE DIGITALE
 
-Con la serie **EDGE** **CUSTOM S.p.a.**ha anticipato il mercato, introducendo il *SIGILLO FISCALE DIGITALE*!  
+Con la serie **EDGE** **CUSTOM S.p.a.** ha anticipato il mercato, introducendo il *SIGILLO FISCALE DIGITALE!*  
 
 Si tratta di un sistema elettronico progettato per rilevare automaticamente qualsiasi apertura non autorizzata dell'involucro della cassa, funzionando persino a *macchina spenta*, rilevando automaticamente eventuali manomissioni del modulo fiscale, riconoscendo automaticamente l'apertura dell'involucro del dispositivo, e interrompendo immediatamente l’esecuzione delle funzioni a valenza fiscale.
 
