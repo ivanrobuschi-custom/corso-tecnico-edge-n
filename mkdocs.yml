@@ -40,7 +40,7 @@ plugins:
   - search
   - tags
 
-copyright: Copyright Custom S.p.A 2026 by Ivan Robuschi Pre-sales
+copyright: Copyright Custom S.p.A 2026
 
 nav:
   - Serie Edge: index.md

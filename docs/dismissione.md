@@ -24,8 +24,11 @@ A differenza della Disattivazione, al termine del processo di Dismissione il Reg
     
 - Premere il tasto **REGISTRA EVENTO**
 
-_**Esito**_: Il registratore telematico genererà un file con estensione .xml (contenente l'ultimo invio dei corrispettivi e la comunicazione di variazione stato in "Dismesso") che verrà trasmesso in automatico al sistema dell'Agenzia delle Entrate.
-_**Stampa di Controllo**_: A conferma del successo dell'operazione, la stampante emetterà un documento non fiscale con l'attestazione di avvenuta dismissione.
+_**Esito:**_
+    Il registratore telematico genererà un file con estensione .xml (contenente l'ultimo invio dei corrispettivi e la comunicazione di variazione stato in "Dismesso") che verrà trasmesso in automatico al sistema dell'Agenzia delle Entrate.
+
+_**Stampa di Controllo**_: 
+    A conferma del successo dell'operazione, la stampante emetterà un documento non fiscale con l'attestazione di avvenuta dismissione.
 
 !!! wanrning "ATTENZIONE"
     Da questo momento il Registratore Telematico è DISMESSO in modo permanente. Non sarà più possibile emettere documenti commerciali né ripristinare la macchina per utilizzi fiscali futuri.
