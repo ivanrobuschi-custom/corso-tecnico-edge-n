@@ -16,6 +16,7 @@ Per ovviare a questa mancanza di comunicazione automatica, il RT è stato dotato
 Il rilevamento (e il conseguente aggiornamento dello stato) scatta in momenti precisi:
 
 - Dopo una Chiusura Giornaliera (Z): Se il RT invia la chiusura e riceve un esito negativo (come un errore http 409 / 200 XML), la macchina richiede immediatamente l'aggiornamento dello stato dal server per capire se è stata disattivata.
+
 All'apertura di un documento commerciale: Il dispositivo verifica se lo stato sul server risulta "Disattivato" mentre la cassa è ancora attiva.
 
 Dopo ogni segnalazione di evento: Il RT richiede l'aggiornamento dello stato del server dopo aver trasmesso un qualsiasi evento.
@@ -23,6 +24,7 @@ Dopo ogni segnalazione di evento: Il RT richiede l'aggiornamento dello stato del
 - Il Blocco Operativo: quando il RT si accorge del disallineamento critico (es. server "Disattivato" vs cassa "In servizio"), interviene un blocco di protezione severo:
 
 Il Registratore Telematico non emette più documenti commerciali fino a quando il problema non viene risolto.
+
 Per avvisare l'esercente, il RT visualizza un avviso a display e stampa un documento gestionale con la dicitura esatta: "ATTENZIONE! DISPOSITIVO BLOCCATO NECESSARIO INTERVENTO TECNICO PER LO SBLOCCO".
 
 ## L'Eccezione: Il "Fuori Servizio"
