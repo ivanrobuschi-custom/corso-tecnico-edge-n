@@ -126,6 +126,3 @@ adb disconnect <ip>:5555
 ```
 
 ---
-
-!!! info "Fonte"
-    Procedura validata internamente da **Nicolò Sola – Custom S.p.A.** (maggio 2025).
